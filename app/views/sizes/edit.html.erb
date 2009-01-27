@@ -1,0 +1,28 @@
+<h1>Editing size</h1>
+
+<% form_for(@size) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :file_path %><br />
+    <%= f.text_field :file_path %>
+  </p>
+  <p>
+    <%= f.label :width %><br />
+    <%= f.text_field :width %>
+  </p>
+  <p>
+    <%= f.label :height %><br />
+    <%= f.text_field :height %>
+  </p>
+  <p>
+    <%= f.label :description_of_size %><br />
+    <%= f.text_area :description_of_size %>
+  </p>
+  <p>
+    <%= f.submit "Update" %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @size %> |
+<%= link_to 'Back', sizes_path %>

@@ -1,0 +1,23 @@
+<p>
+  <b>File path:</b>
+  <%=h @size.file_path %>
+</p>
+
+<p>
+  <b>Width:</b>
+  <%=h @size.width %>
+</p>
+
+<p>
+  <b>Height:</b>
+  <%=h @size.height %>
+</p>
+
+<p>
+  <b>Description of size:</b>
+  <%=h @size.description_of_size %>
+</p>
+
+
+<%= link_to 'Edit', edit_size_path(@size) %> |
+<%= link_to 'Back', sizes_path %>

@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  file_path: MyString
+  width: 
+  height: 
+  description_of_size: MyText
+
+two:
+  file_path: MyString
+  width: 
+  height: 
+  description_of_size: MyText
